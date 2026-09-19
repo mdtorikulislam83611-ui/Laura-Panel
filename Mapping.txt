@@ -1,0 +1,1749 @@
+Renamed Types:
+
+[Laura Vip1eo]AimbotLogic.Aimbot -> [Laura Vip1eo]A.A
+{
+	[Laura Vip1eo]AimbotLogic.Aimbot::GetAsyncKeyState[1]( [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]AimbotLogic.Aimbot::Work[0]( ) -> A
+	[Laura Vip1eo]AimbotLogic.Aimbot::WriteAimValue[1]( [mscorlib]System.UIntPtr ) -> A
+	[Laura Vip1eo]AimbotLogic.Aimbot::InitAimbot[0]( ) -> a
+
+	[Laura Vip1eo]AimbotLogic.Aimbot::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]AimbotLogic.Aimbot::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Cryptographic.Arrays -> [Laura Vip1eo]A.a
+{
+	[Laura Vip1eo]Cryptographic.Arrays::CopyOfRange[3]( [mscorlib]System.Byte[], [mscorlib]System.Int32, [mscorlib]System.Int32 ) -> A
+}
+
+[Laura Vip1eo]Cryptographic.BigIntegerHelpers -> [Laura Vip1eo]A.B
+{
+	[Laura Vip1eo]Cryptographic.BigIntegerHelpers::Mod[2]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) -> A
+}
+
+[Laura Vip1eo]Decent.FastMemory -> [Laura Vip1eo]A.b
+{
+	[Laura Vip1eo]Decent.FastMemory::OpenProcess[3]( [mscorlib]System.Int32, [mscorlib]System.Boolean, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::ReadProcessMemory[5]( [mscorlib]System.IntPtr, [mscorlib]System.Int64, [mscorlib]System.Byte[], [mscorlib]System.Int32, [mscorlib]System.Int32& ) -> A
+	[Laura Vip1eo]Decent.FastMemory::WriteProcessMemory[5]( [mscorlib]System.IntPtr, [mscorlib]System.Int64, [mscorlib]System.Byte[], [mscorlib]System.Int32, [mscorlib]System.Int32& ) -> a
+	[Laura Vip1eo]Decent.FastMemory::EnumProcessModulesEx[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr[], [mscorlib]System.Int32, [mscorlib]System.Int32&, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::GetModuleBaseName[4]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::GetModuleInformation[4]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [Laura Vip1eo]Decent.FastMemory/MODULEINFO&, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::VirtualQueryEx[4]( [mscorlib]System.IntPtr, [mscorlib]System.UIntPtr, [Laura Vip1eo]Decent.FastMemory/MEMORY_BASIC_INFORMATION&, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::GetSystemInfo[1]( [Laura Vip1eo]Decent.FastMemory/SYSTEM_INFO& ) -> A
+	[Laura Vip1eo]Decent.FastMemory::OpenProcessByName[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]Decent.FastMemory::OpenProcessById[1]( [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::ReadInt32[1]( [mscorlib]System.Int64 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::WriteInt32[2]( [mscorlib]System.Int64, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Decent.FastMemory::ReadBytes[2]( [mscorlib]System.Int64, [mscorlib]System.Byte[] ) -> A
+	[Laura Vip1eo]Decent.FastMemory::WriteBytes[2]( [mscorlib]System.Int64, [mscorlib]System.Byte[] ) -> a
+	[Laura Vip1eo]Decent.FastMemory::AoBScan[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]Decent.FastMemory::FastAoBScan[4]( [mscorlib]System.String, [mscorlib]System.Boolean, [mscorlib]System.Boolean, [mscorlib]System.Boolean ) -> A
+	[Laura Vip1eo]Decent.FastMemory::FastAoBScan2[4]( [mscorlib]System.String, [mscorlib]System.Boolean, [mscorlib]System.Boolean, [mscorlib]System.Boolean ) -> a
+	[Laura Vip1eo]Decent.FastMemory::ParsePattern[1]( [mscorlib]System.String ) -> a
+
+	[Laura Vip1eo]Decent.FastMemory::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.InternalMemory -> [Laura Vip1eo]A.C
+{
+	[Laura Vip1eo]V._2.InternalMemory::OpenProcessByName[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::OpenProcessById[1]( [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::Read[2]( [mscorlib]System.UInt32, [Laura Vip1eo]T& ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::Write[2]( [mscorlib]System.UInt32, !0 ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::Read[2]( [mscorlib]System.UInt64, [Laura Vip1eo]T& ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::Write[2]( [mscorlib]System.UInt64, !0 ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::ByteArrayToStructure[1]( [mscorlib]System.Byte[] ) -> A
+	[Laura Vip1eo]V._2.InternalMemory::StructureToByteArray[1]( !0 ) -> A
+
+	[Laura Vip1eo]V._2.InternalMemory::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Program -> [Laura Vip1eo]A.c
+{
+	[Laura Vip1eo]V._2.Program::AllocConsole[0]( ) -> A
+	[Laura Vip1eo]V._2.Program::GetConsoleWindow[0]( ) -> a
+	[Laura Vip1eo]V._2.Program::ShowWindow[2]( [mscorlib]System.IntPtr, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.Program::Main[0]( ) -> B
+	[Laura Vip1eo]V._2.Program::FormThreadException[2]( [mscorlib]System.Object, [System]System.Threading.ThreadExceptionEventArgs ) -> A
+	[Laura Vip1eo]V._2.Program::CurrentDomain_UnhandledException[2]( [mscorlib]System.Object, [mscorlib]System.UnhandledExceptionEventArgs ) -> A
+	[Laura Vip1eo]V._2.Program::RunDiagnostics[0]( ) -> b
+	[Laura Vip1eo]V._2.Program::IsDotNetVersionOk[0]( ) -> C
+	[Laura Vip1eo]V._2.Program::IsRunningAsAdmin[0]( ) -> c
+	[Laura Vip1eo]V._2.Program::IsVCRuntimePresent[0]( ) -> D
+	[Laura Vip1eo]V._2.Program::IsEmulatorRunning[0]( ) -> d
+	[Laura Vip1eo]V._2.Program::HandleCustomError[1]( [mscorlib]System.Exception ) -> A
+	[Laura Vip1eo]V._2.Program::ShowError[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+}
+
+[Laura Vip1eo]V._2.Properties.Resources -> [Laura Vip1eo]A.D
+{
+
+	[Laura Vip1eo]V._2.Properties.Resources::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Properties.Resources::get_ResourceManager[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_Culture[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get__15aee634_3a32_4416_98d5_f5437eb8abc3[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get__44cd0886_1359_4454_b2ab_daa203d9f7b8[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get__7b70ecf2_6380_4ee6_837f_852ef88c65eb4[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get__7b70ecf2_6380_4ee6_837f_852ef88c65eb5[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_copy2[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_copyphoto[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_Discordlogo[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_garena_free_fire_adam_3d_model_3d_model_13a2cff0d9_removebg_preview[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_images[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_istockphoto_928418914_612x6121[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_joker_logos___Made_with_PosterMyWall[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_qrcode[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_Untitled___08_August_2026_at_20_13_40[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Resources::get_Untitled___08_August_2026_at_20_13_40__1_[0]( ) skipped:  skipping properties
+}
+
+[Laura Vip1eo]V._2.Properties.Settings -> [Laura Vip1eo]A.d
+{
+
+	[Laura Vip1eo]V._2.Properties.Settings::get_Default[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::get_Username[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::set_Username[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::get_Password[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::set_Password[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::get_RememberMe[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::set_RememberMe[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Properties.Settings::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Properties.Settings::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Costura.AssemblyLoader -> [Laura Vip1eo]A.E
+{
+	[Laura Vip1eo]Costura.AssemblyLoader::CultureToString[1]( [mscorlib]System.Globalization.CultureInfo ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::ReadExistingAssembly[1]( [mscorlib]System.Reflection.AssemblyName ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::GetAssemblyResourceName[1]( [mscorlib]System.Reflection.AssemblyName ) -> a
+	[Laura Vip1eo]Costura.AssemblyLoader::CopyTo[2]( [mscorlib]System.IO.Stream, [mscorlib]System.IO.Stream ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::LoadStream[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::LoadStream[2]( [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::ReadStream[1]( [mscorlib]System.IO.Stream ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::ReadFromEmbeddedResources[3]( [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.Reflection.AssemblyName ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::ResolveAssembly[2]( [mscorlib]System.Object, [mscorlib]System.ResolveEventArgs ) -> A
+	[Laura Vip1eo]Costura.AssemblyLoader::Attach[1]( [mscorlib]System.Boolean ) -> A
+
+	[Laura Vip1eo]Costura.AssemblyLoader::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]AimbotLogic.Aimbot/<>c -> [Laura Vip1eo]A.A/A
+{
+	[Laura Vip1eo]AimbotLogic.Aimbot/<>c::<InitAimbot>b__6_0[1]( [mscorlib]System.Int64 ) -> A
+
+	[Laura Vip1eo]AimbotLogic.Aimbot/<>c::.cctor[0]( ) skipped:  special name
+	[Laura Vip1eo]AimbotLogic.Aimbot/<>c::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]AimbotLogic.Aimbot/<InitAimbot>d__6 -> [Laura Vip1eo]A.A/a
+{
+
+	[Laura Vip1eo]AimbotLogic.Aimbot/<InitAimbot>d__6::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]AimbotLogic.Aimbot/<InitAimbot>d__6::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.AutoFireForm/<ScanLoop>d__17 -> [Laura Vip1eo]V._2.AutoFireForm/B
+{
+
+	[Laura Vip1eo]V._2.AutoFireForm/<ScanLoop>d__17::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.AutoFireForm/<ScanLoop>d__17::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form1/<btnSubmit_Click>d__37 -> [Laura Vip1eo]V._2.Form1/a
+{
+
+	[Laura Vip1eo]V._2.Form1/<btnSubmit_Click>d__37::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form1/<btnSubmit_Click>d__37::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<<PlayBackgroundMusic>b__387_1>d -> [Laura Vip1eo]V._2.Form2/C
+{
+
+	[Laura Vip1eo]V._2.Form2/<<PlayBackgroundMusic>b__387_1>d::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<<PlayBackgroundMusic>b__387_1>d::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<Aim_Click>d__58 -> [Laura Vip1eo]V._2.Form2/f
+{
+
+	[Laura Vip1eo]V._2.Form2/<Aim_Click>d__58::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<Aim_Click>d__58::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<FastInjectScan>d__37 -> [Laura Vip1eo]V._2.Form2/G
+{
+
+	[Laura Vip1eo]V._2.Form2/<FastInjectScan>d__37::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<FastInjectScan>d__37::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<Form2_Load>d__39 -> [Laura Vip1eo]V._2.Form2/g
+{
+
+	[Laura Vip1eo]V._2.Form2/<Form2_Load>d__39::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<Form2_Load>d__39::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2Button1_Click>d__98 -> [Laura Vip1eo]V._2.Form2/H
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2Button1_Click>d__98::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2Button1_Click>d__98::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2Button1_Click_1>d__177 -> [Laura Vip1eo]V._2.Form2/h
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2Button1_Click_1>d__177::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2Button1_Click_1>d__177::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2Button2_Click>d__183 -> [Laura Vip1eo]V._2.Form2/I
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2Button2_Click>d__183::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2Button2_Click>d__183::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton10_Click>d__78 -> [Laura Vip1eo]V._2.Form2/i
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton10_Click>d__78::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton10_Click>d__78::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton11_Click_1>d__197 -> [Laura Vip1eo]V._2.Form2/J
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton11_Click_1>d__197::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton11_Click_1>d__197::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton12_Click_1>d__209 -> [Laura Vip1eo]V._2.Form2/j
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton12_Click_1>d__209::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton12_Click_1>d__209::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton13_Click>d__95 -> [Laura Vip1eo]V._2.Form2/K
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton13_Click>d__95::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton13_Click>d__95::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton14_Click>d__97 -> [Laura Vip1eo]V._2.Form2/k
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton14_Click>d__97::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton14_Click>d__97::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton15_Click>d__119 -> [Laura Vip1eo]V._2.Form2/L
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton15_Click>d__119::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton15_Click>d__119::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton16_Click>d__132 -> [Laura Vip1eo]V._2.Form2/l
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton16_Click>d__132::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton16_Click>d__132::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton17_Click>d__134 -> [Laura Vip1eo]V._2.Form2/M
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton17_Click>d__134::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton17_Click>d__134::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton18_Click>d__131 -> [Laura Vip1eo]V._2.Form2/m
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton18_Click>d__131::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton18_Click>d__131::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton19_Click>d__133 -> [Laura Vip1eo]V._2.Form2/N
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton19_Click>d__133::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton19_Click>d__133::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton1_Click_1>d__67 -> [Laura Vip1eo]V._2.Form2/n
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton1_Click_1>d__67::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton1_Click_1>d__67::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton20_Click>d__135 -> [Laura Vip1eo]V._2.Form2/O
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton20_Click>d__135::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton20_Click>d__135::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton21_Click>d__121 -> [Laura Vip1eo]V._2.Form2/o
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton21_Click>d__121::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton21_Click>d__121::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton22_Click>d__136 -> [Laura Vip1eo]V._2.Form2/P
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton22_Click>d__136::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton22_Click>d__136::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton23_Click>d__120 -> [Laura Vip1eo]V._2.Form2/p
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton23_Click>d__120::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton23_Click>d__120::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton24_Click>d__137 -> [Laura Vip1eo]V._2.Form2/Q
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton24_Click>d__137::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton24_Click>d__137::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click>d__124 -> [Laura Vip1eo]V._2.Form2/q
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click>d__124::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click>d__124::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_1>d__198 -> [Laura Vip1eo]V._2.Form2/R
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_1>d__198::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_1>d__198::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_2>d__279 -> [Laura Vip1eo]V._2.Form2/r
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_2>d__279::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_2>d__279::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_3>d__375 -> [Laura Vip1eo]V._2.Form2/S
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_3>d__375::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton25_Click_3>d__375::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click>d__125 -> [Laura Vip1eo]V._2.Form2/s
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click>d__125::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click>d__125::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_1>d__278 -> [Laura Vip1eo]V._2.Form2/T
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_1>d__278::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_1>d__278::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_2>d__381 -> [Laura Vip1eo]V._2.Form2/t
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_2>d__381::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton26_Click_2>d__381::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton27_Click>d__128 -> [Laura Vip1eo]V._2.Form2/U
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton27_Click>d__128::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton27_Click>d__128::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton28_Click>d__139 -> [Laura Vip1eo]V._2.Form2/u
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton28_Click>d__139::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton28_Click>d__139::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton29_Click>d__140 -> [Laura Vip1eo]V._2.Form2/V
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton29_Click>d__140::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton29_Click>d__140::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton2_Click>d__64 -> [Laura Vip1eo]V._2.Form2/v
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton2_Click>d__64::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton2_Click>d__64::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton30_Click>d__138 -> [Laura Vip1eo]V._2.Form2/W
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton30_Click>d__138::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton30_Click>d__138::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton31_Click>d__168 -> [Laura Vip1eo]V._2.Form2/w
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton31_Click>d__168::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton31_Click>d__168::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton33_Click>d__167 -> [Laura Vip1eo]V._2.Form2/X
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton33_Click>d__167::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton33_Click>d__167::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click>d__199 -> [Laura Vip1eo]V._2.Form2/x
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click>d__199::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click>d__199::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click_2>d__412 -> [Laura Vip1eo]V._2.Form2/Y
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click_2>d__412::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton34_Click_2>d__412::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton36_Click>d__200 -> [Laura Vip1eo]V._2.Form2/y
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton36_Click>d__200::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton36_Click>d__200::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton38_Click>d__202 -> [Laura Vip1eo]V._2.Form2/Z
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton38_Click>d__202::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton38_Click>d__202::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton39_Click>d__201 -> [Laura Vip1eo]V._2.Form2/z
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton39_Click>d__201::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton39_Click>d__201::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton3_Click_1>d__99 -> [Laura Vip1eo]V._2.Form2/aA
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton3_Click_1>d__99::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton3_Click_1>d__99::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton4_Click>d__69 -> [Laura Vip1eo]V._2.Form2/aa
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton4_Click>d__69::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton4_Click>d__69::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click>d__71 -> [Laura Vip1eo]V._2.Form2/aB
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click>d__71::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click>d__71::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_1>d__323 -> [Laura Vip1eo]V._2.Form2/ab
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_1>d__323::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_1>d__323::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_3>d__374 -> [Laura Vip1eo]V._2.Form2/aC
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_3>d__374::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton5_Click_3>d__374::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton6_Click>d__70 -> [Laura Vip1eo]V._2.Form2/ac
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton6_Click>d__70::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton6_Click>d__70::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton7_Click_1>d__100 -> [Laura Vip1eo]V._2.Form2/aD
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton7_Click_1>d__100::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton7_Click_1>d__100::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton8_Click>d__73 -> [Laura Vip1eo]V._2.Form2/ad
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton8_Click>d__73::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton8_Click>d__73::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2GradientButton9_Click>d__79 -> [Laura Vip1eo]V._2.Form2/aE
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton9_Click>d__79::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2GradientButton9_Click>d__79::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch10_CheckedChanged_4>d__355 -> [Laura Vip1eo]V._2.Form2/ae
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch10_CheckedChanged_4>d__355::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch10_CheckedChanged_4>d__355::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch14_CheckedChanged_2>d__382 -> [Laura Vip1eo]V._2.Form2/aF
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch14_CheckedChanged_2>d__382::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch14_CheckedChanged_2>d__382::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch1_CheckedChanged>d__173 -> [Laura Vip1eo]V._2.Form2/af
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch1_CheckedChanged>d__173::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch1_CheckedChanged>d__173::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch2_CheckedChanged>d__182 -> [Laura Vip1eo]V._2.Form2/aG
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch2_CheckedChanged>d__182::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch2_CheckedChanged>d__182::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch3_CheckedChanged>d__188 -> [Laura Vip1eo]V._2.Form2/ag
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch3_CheckedChanged>d__188::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch3_CheckedChanged>d__188::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_3>d__234 -> [Laura Vip1eo]V._2.Form2/aH
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_3>d__234::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_3>d__234::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_4>d__236 -> [Laura Vip1eo]V._2.Form2/ah
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_4>d__236::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch4_CheckedChanged_4>d__236::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch6_CheckedChanged>d__258 -> [Laura Vip1eo]V._2.Form2/aI
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch6_CheckedChanged>d__258::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch6_CheckedChanged>d__258::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch7_CheckedChanged_1>d__270 -> [Laura Vip1eo]V._2.Form2/ai
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch7_CheckedChanged_1>d__270::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch7_CheckedChanged_1>d__270::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged>d__274 -> [Laura Vip1eo]V._2.Form2/aJ
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged>d__274::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged>d__274::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged_1>d__291 -> [Laura Vip1eo]V._2.Form2/aj
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged_1>d__291::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch8_CheckedChanged_1>d__291::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_1>d__284 -> [Laura Vip1eo]V._2.Form2/aK
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_1>d__284::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_1>d__284::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_4>d__301 -> [Laura Vip1eo]V._2.Form2/ak
+{
+
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_4>d__301::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<guna2ToggleSwitch9_CheckedChanged_4>d__301::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form2/<sendmsg_Click>d__421 -> [Laura Vip1eo]V._2.Form2/aL
+{
+
+	[Laura Vip1eo]V._2.Form2/<sendmsg_Click>d__421::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2/<sendmsg_Click>d__421::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.GlobalMouseHook/<<StartReleaseMonitoring>b__21_0>d -> [Laura Vip1eo]V._2.GlobalMouseHook/a
+{
+
+	[Laura Vip1eo]V._2.GlobalMouseHook/<<StartReleaseMonitoring>b__21_0>d::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.GlobalMouseHook/<<StartReleaseMonitoring>b__21_0>d::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Teamcodesend/<<StartPolling>b__6_0>d -> [Laura Vip1eo]V._2.Teamcodesend/A
+{
+
+	[Laura Vip1eo]V._2.Teamcodesend/<<StartPolling>b__6_0>d::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Teamcodesend/<<StartPolling>b__6_0>d::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Teamcodesend/<PollFirebaseAsync>d__7 -> [Laura Vip1eo]V._2.Teamcodesend/B
+{
+
+	[Laura Vip1eo]V._2.Teamcodesend/<PollFirebaseAsync>d__7::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Teamcodesend/<PollFirebaseAsync>d__7::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Teamcodesend/<SendMessageAsync>d__8 -> [Laura Vip1eo]V._2.Teamcodesend/b
+{
+
+	[Laura Vip1eo]V._2.Teamcodesend/<SendMessageAsync>d__8::MoveNext[0]( ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Teamcodesend/<SendMessageAsync>d__8::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]KeyAuth.api/response_structure -> [Laura Vip1eo]KeyAuth.api/A
+{
+
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_success[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_success[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_newSession[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_newSession[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_sessionid[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_sessionid[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_contents[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_contents[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_response[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_response[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_message[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_message[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_ownerid[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_ownerid[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_download[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_download[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_info[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_info[1]( [Laura Vip1eo]KeyAuth.api/user_data_structure ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_appinfo[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_appinfo[1]( [Laura Vip1eo]KeyAuth.api/app_data_structure ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_messages[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_messages[1]( [mscorlib]System.Collections.Generic.List`1<[Laura Vip1eo]KeyAuth.api/msg> ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_users[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_users[1]( [mscorlib]System.Collections.Generic.List`1<[Laura Vip1eo]KeyAuth.api/users> ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::get_twoFactor[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::set_twoFactor[1]( [Laura Vip1eo]KeyAuth.api/TwoFactorData ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_structure::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/user_data_structure -> [Laura Vip1eo]KeyAuth.api/b
+{
+
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_username[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_username[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_ip[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_ip[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_hwid[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_hwid[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_createdate[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_createdate[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_lastlogin[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_lastlogin[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::get_subscriptions[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::set_subscriptions[1]( [mscorlib]System.Collections.Generic.List`1<[Laura Vip1eo]KeyAuth.api/Data> ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_structure::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/app_data_structure -> [Laura Vip1eo]KeyAuth.api/C
+{
+
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_numUsers[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_numUsers[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_numOnlineUsers[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_numOnlineUsers[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_numKeys[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_numKeys[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_version[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_version[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_customerPanelLink[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_customerPanelLink[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::get_downloadLink[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::set_downloadLink[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_structure::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/TwoFactorData -> [Laura Vip1eo]KeyAuth.api/E
+{
+
+	[Laura Vip1eo]KeyAuth.api/TwoFactorData::get_SecretCode[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/TwoFactorData::set_SecretCode[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/TwoFactorData::get_QRCode[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/TwoFactorData::set_QRCode[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/TwoFactorData::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/<>c -> [Laura Vip1eo]KeyAuth.api/F
+{
+	[Laura Vip1eo]KeyAuth.api/<>c::<req>b__49_0[4]( [mscorlib]System.Object, [mscorlib]System.Security.Cryptography.X509Certificates.X509Certificate, [System]System.Security.Cryptography.X509Certificates.X509Chain, [System]System.Net.Security.SslPolicyErrors ) -> A
+
+	[Laura Vip1eo]KeyAuth.api/<>c::.cctor[0]( ) skipped:  special name
+	[Laura Vip1eo]KeyAuth.api/<>c::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Cryptographic.Ed25519/<>c -> [Laura Vip1eo]Cryptographic.Ed25519/A
+{
+	[Laura Vip1eo]Cryptographic.Ed25519/<>c::<.cctor>b__34_0[1]( [mscorlib]System.Int32 ) -> A
+
+	[Laura Vip1eo]Cryptographic.Ed25519/<>c::.cctor[0]( ) skipped:  special name
+	[Laura Vip1eo]Cryptographic.Ed25519/<>c::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Decent.FastMemory/<>c -> [Laura Vip1eo]A.b/b
+{
+	[Laura Vip1eo]Decent.FastMemory/<>c::<FastAoBScan2>b__22_1[1]( [mscorlib]System.String ) -> A
+
+	[Laura Vip1eo]Decent.FastMemory/<>c::.cctor[0]( ) skipped:  special name
+	[Laura Vip1eo]Decent.FastMemory/<>c::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_0 -> [Laura Vip1eo]A.b/C
+{
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_0::<FastAoBScan>b__0[0]( ) -> A
+
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_1 -> [Laura Vip1eo]A.b/c
+{
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_1::<FastAoBScan>b__1[1]( [Laura Vip1eo]Decent.FastMemory/MEMORY_BASIC_INFORMATION ) -> A
+
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass21_1::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_0 -> [Laura Vip1eo]A.b/D
+{
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_0::<FastAoBScan2>b__0[0]( ) -> A
+
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_1 -> [Laura Vip1eo]A.b/d
+{
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_1::<FastAoBScan2>b__2[1]( [Laura Vip1eo]Decent.FastMemory/MEMORY_BASIC_INFORMATION ) -> A
+
+	[Laura Vip1eo]Decent.FastMemory/<>c__DisplayClass22_1::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.AutoFireForm/<>c__DisplayClass17_0 -> [Laura Vip1eo]V._2.AutoFireForm/a
+{
+	[Laura Vip1eo]V._2.AutoFireForm/<>c__DisplayClass17_0::<ScanLoop>b__0[0]( ) -> A
+
+	[Laura Vip1eo]V._2.AutoFireForm/<>c__DisplayClass17_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc -> [Laura Vip1eo]V._2.Form2/A
+{
+
+	[Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc::Invoke[3]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc::BeginInvoke[5]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[Laura Vip1eo]V._2.Form2/<>c -> [Laura Vip1eo]V._2.Form2/c
+{
+	[Laura Vip1eo]V._2.Form2/<>c::<FastInjectScan>b__37_0[1]( [mscorlib]System.Int64 ) -> A
+	[Laura Vip1eo]V._2.Form2/<>c::<PlayBackgroundMusic>b__387_0[1]( [mscorlib]System.String ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c::.cctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Form2/<>c::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_0 -> [Laura Vip1eo]V._2.Form2/D
+{
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_0::<Alert>b__0[0]( ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_1 -> [Laura Vip1eo]V._2.Form2/d
+{
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_1::<Alert>b__1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass208_1::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/<>c__DisplayClass311_0 -> [Laura Vip1eo]V._2.Form2/E
+{
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass311_0::<ShowAlert>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass311_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/<>c__DisplayClass39_0 -> [Laura Vip1eo]V._2.Form2/e
+{
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass39_0::<Form2_Load>b__3[0]( ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass39_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/<>c__DisplayClass430_0 -> [Laura Vip1eo]V._2.Form2/F
+{
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass430_0::<EnsureDllExists>b__0[1]( [mscorlib]System.String ) -> A
+
+	[Laura Vip1eo]V._2.Form2/<>c__DisplayClass430_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc -> [Laura Vip1eo]V._2.GlobalMouseHook/A
+{
+
+	[Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc::Invoke[3]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc::BeginInvoke[5]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[Laura Vip1eo]V._2.Teamcodesend/<>c__DisplayClass7_0 -> [Laura Vip1eo]V._2.Teamcodesend/a
+{
+	[Laura Vip1eo]V._2.Teamcodesend/<>c__DisplayClass7_0::<PollFirebaseAsync>b__0[0]( ) -> A
+
+	[Laura Vip1eo]V._2.Teamcodesend/<>c__DisplayClass7_0::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]Laura Vip1eo_ProcessedByFody -> [Laura Vip1eo]A.e
+{
+}
+
+[Laura Vip1eo]Decent.FastMemory/MODULEINFO -> [Laura Vip1eo]A.b/A
+{
+}
+
+[Laura Vip1eo]Decent.FastMemory/MEMORY_BASIC_INFORMATION -> [Laura Vip1eo]A.b/a
+{
+}
+
+[Laura Vip1eo]Decent.FastMemory/SYSTEM_INFO -> [Laura Vip1eo]A.b/B
+{
+}
+
+[Laura Vip1eo]Costura.AssemblyLoader/<>O -> [Laura Vip1eo]A.E/A
+{
+}
+
+Skipped Types:
+
+[Laura Vip1eo]PipeClient skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]PipeClient::Send[2]( [mscorlib]System.String, [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]PipeClient::Receive[2]( [mscorlib]System.String, [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]PipeClient::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]KeyAuth.api::TerminateProcess[2]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]KeyAuth.api::GetCurrentProcess[0]( ) -> A
+	[Laura Vip1eo]KeyAuth.api::GlobalAddAtom[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]KeyAuth.api::GlobalFindAtom[1]( [mscorlib]System.String ) -> a
+	[Laura Vip1eo]KeyAuth.api::checkAtom[0]( ) -> a
+	[Laura Vip1eo]KeyAuth.api::req[1]( [System]System.Collections.Specialized.NameValueCollection ) -> A
+	[Laura Vip1eo]KeyAuth.api::assertSSL[4]( [mscorlib]System.Object, [mscorlib]System.Security.Cryptography.X509Certificates.X509Certificate, [System]System.Security.Cryptography.X509Certificates.X509Chain, [System]System.Net.Security.SslPolicyErrors ) -> A
+	[Laura Vip1eo]KeyAuth.api::sigCheck[3]( [mscorlib]System.String, [System]System.Net.WebHeaderCollection, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]KeyAuth.api::load_app_data[1]( [Laura Vip1eo]KeyAuth.api/app_data_structure ) -> A
+	[Laura Vip1eo]KeyAuth.api::load_user_data[1]( [Laura Vip1eo]KeyAuth.api/user_data_structure ) -> A
+	[Laura Vip1eo]KeyAuth.api::load_response_struct[1]( [Laura Vip1eo]KeyAuth.api/response_structure ) -> A
+	[Laura Vip1eo]KeyAuth.api::<checkAtom>b__19_0[0]( ) -> B
+
+	[Laura Vip1eo]KeyAuth.api::.ctor[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  special name
+	[Laura Vip1eo]KeyAuth.api::init[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::TokenHash[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::CheckInit[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::expirydaysleft[2]( [mscorlib]System.String, [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::register[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::forgot[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::login[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::logout[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::web_login[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::button[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::upgrade[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::license[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::check[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::disable2fa[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::enable2fa[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::setvar[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::getvar[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::ban[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::var[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::fetchOnline[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::fetchStats[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::chatget[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::chatsend[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::checkblack[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::webhook[4]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::download[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::log[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::changeUsername[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::checksum[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.api::error[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]KeyAuth.Logger skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]KeyAuth.Logger::RedactField[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+
+	[Laura Vip1eo]KeyAuth.Logger::get_IsLoggingEnabled[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.Logger::set_IsLoggingEnabled[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.Logger::LogEvent[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]KeyAuth.encryption skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]KeyAuth.encryption::TerminateProcess[2]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]KeyAuth.encryption::GetCurrentProcess[0]( ) -> A
+
+	[Laura Vip1eo]KeyAuth.encryption::HashHMAC[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.encryption::byte_arr_to_str[1]( [mscorlib]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.encryption::str_to_byte_arr[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.encryption::iv_key[0]( ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]KeyAuth.json_wrapper skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.json_wrapper::is_serializable[1]( [mscorlib]System.Type ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.json_wrapper::.ctor[1]( [mscorlib]System.Object ) skipped:  special name
+	[Laura Vip1eo]KeyAuth.json_wrapper::string_to_object[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]KeyAuth.json_wrapper::string_to_generic[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]InjectorHelpers.ProcessInjector skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::OpenProcess[3]( [mscorlib]System.UInt32, [mscorlib]System.Boolean, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::CloseHandle[1]( [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::GetProcAddress[2]( [mscorlib]System.IntPtr, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::GetModuleHandle[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::VirtualAllocEx[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UIntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::WriteProcessMemory[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Byte[], [mscorlib]System.UIntPtr, [mscorlib]System.UIntPtr& ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::CreateRemoteThread[7]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UIntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.IntPtr& ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::IsWow64Process[2]( [mscorlib]System.IntPtr, [mscorlib]System.Boolean& ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::WaitForSingleObject[2]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::Log[1]( [mscorlib]System.String ) -> a
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::ThrowWin32IfZero[2]( [mscorlib]System.IntPtr, [mscorlib]System.String ) -> a
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::ThrowWin32IfFalse[2]( [mscorlib]System.Boolean, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::IsProcess64Bit[1]( [System]System.Diagnostics.Process ) -> A
+
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::GetEmbeddedResourceNames[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::ExtractEmbeddedResource[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::InjectFromFile[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]InjectorHelpers.ProcessInjector::InjectFromResource[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]Cryptographic.Ed25519 skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]Cryptographic.Ed25519::ComputeHash[1]( [mscorlib]System.Byte[] ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::ExpMod[3]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::Inv[1]( [System.Numerics]System.Numerics.BigInteger ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::RecoverX[1]( [System.Numerics]System.Numerics.BigInteger ) -> a
+	[Laura Vip1eo]Cryptographic.Ed25519::Edwards[4]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::EdwardsSquare[2]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::ScalarMul[2]( [mscorlib]System.Tuple`2<[System.Numerics]System.Numerics.BigInteger,[System.Numerics]System.Numerics.BigInteger>, [System.Numerics]System.Numerics.BigInteger ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::GetBit[2]( [mscorlib]System.Byte[], [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]Cryptographic.Ed25519::HashInt[1]( [mscorlib]System.Byte[] ) -> a
+	[Laura Vip1eo]Cryptographic.Ed25519::IsOnCurve[2]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) -> a
+	[Laura Vip1eo]Cryptographic.Ed25519::DecodeInt[1]( [mscorlib]System.Byte[] ) -> B
+	[Laura Vip1eo]Cryptographic.Ed25519::DecodePoint[1]( [mscorlib]System.Byte[] ) -> b
+
+	[Laura Vip1eo]Cryptographic.Ed25519::EncodeInt[1]( [System.Numerics]System.Numerics.BigInteger ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]Cryptographic.Ed25519::EncodePoint[2]( [System.Numerics]System.Numerics.BigInteger, [System.Numerics]System.Numerics.BigInteger ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]Cryptographic.Ed25519::PublicKey[1]( [mscorlib]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]Cryptographic.Ed25519::Signature[3]( [mscorlib]System.Byte[], [mscorlib]System.Byte[], [mscorlib]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]Cryptographic.Ed25519::CheckValid[3]( [mscorlib]System.Byte[], [mscorlib]System.Byte[], [mscorlib]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]Cryptographic.Ed25519::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]Cryptographic.Ed25519::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.autoexelauncher skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]V._2.autoexelauncher::StartEmulator[0]( ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]V._2.AutoFireForm skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.AutoFireForm::FindWindow[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::GetWindowRect[2]( [mscorlib]System.IntPtr, [Laura Vip1eo]V._2.AutoFireForm/RECT& ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::GetDC[1]( [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::ReleaseDC[2]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::GetPixel[3]( [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::keybd_event[4]( [mscorlib]System.Byte, [mscorlib]System.Byte, [mscorlib]System.UInt32, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::AutoFireForm_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::ScanLoop[0]( ) -> A
+	[Laura Vip1eo]V._2.AutoFireForm::PressF8[0]( ) -> a
+	[Laura Vip1eo]V._2.AutoFireForm::ReleaseF8[0]( ) -> B
+	[Laura Vip1eo]V._2.AutoFireForm::InitializeComponent[0]( ) -> b
+	[Laura Vip1eo]V._2.AutoFireForm::<StartAutoFire>b__15_0[0]( ) -> C
+
+	[Laura Vip1eo]V._2.AutoFireForm::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.AutoFireForm::StartAutoFire[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.AutoFireForm::StopAutoFire[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.AutoFireForm::OnFormClosing[1]( [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.AutoFireForm::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.CharacterForm skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.CharacterForm::guna2PictureBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[Laura Vip1eo]V._2.CharacterForm::Head_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[Laura Vip1eo]V._2.CharacterForm::CharacterForm_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[Laura Vip1eo]V._2.CharacterForm::InitializeParticles[0]( ) -> A
+	[Laura Vip1eo]V._2.CharacterForm::UpdateAnimation[0]( ) -> a
+	[Laura Vip1eo]V._2.CharacterForm::Guna2PictureBox1_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> A
+	[Laura Vip1eo]V._2.CharacterForm::PlusLabel_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> a
+	[Laura Vip1eo]V._2.CharacterForm::DrawLaserLine[3]( [System.Drawing]System.Drawing.Graphics, [mscorlib]System.Int32, [mscorlib]System.Single ) -> A
+	[Laura Vip1eo]V._2.CharacterForm::DrawCircleWithGlow[3]( [System.Drawing]System.Drawing.Graphics, [System.Drawing]System.Drawing.PointF, [mscorlib]System.Single ) -> A
+	[Laura Vip1eo]V._2.CharacterForm::InitializeComponent[0]( ) -> B
+	[Laura Vip1eo]V._2.CharacterForm::<.ctor>b__10_0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> b
+
+	[Laura Vip1eo]V._2.CharacterForm::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.CharacterForm::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.CharacterForm::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
+}
+
+[Laura Vip1eo]V._2.Form1 skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.Form1::Timer_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[Laura Vip1eo]V._2.Form1::SaveUserAndPass[0]( ) -> A
+	[Laura Vip1eo]V._2.Form1::LoadInformation[0]( ) -> a
+	[Laura Vip1eo]V._2.Form1::label1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[Laura Vip1eo]V._2.Form1::textBox1_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[Laura Vip1eo]V._2.Form1::PlaySound[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.Form1::guna2Button1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> b
+	[Laura Vip1eo]V._2.Form1::Form1_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> C
+	[Laura Vip1eo]V._2.Form1::Lerp[3]( [System.Drawing]System.Drawing.PointF, [System.Drawing]System.Drawing.PointF, [mscorlib]System.Single ) -> A
+	[Laura Vip1eo]V._2.Form1::Form2_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form1::status_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> c
+	[Laura Vip1eo]V._2.Form1::label2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> D
+	[Laura Vip1eo]V._2.Form1::Pass_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> d
+	[Laura Vip1eo]V._2.Form1::label3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> E
+	[Laura Vip1eo]V._2.Form1::label6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> e
+	[Laura Vip1eo]V._2.Form1::guna2VSeparator2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> F
+	[Laura Vip1eo]V._2.Form1::guna2Separator8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> f
+	[Laura Vip1eo]V._2.Form1::label13_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> G
+	[Laura Vip1eo]V._2.Form1::label15_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> g
+	[Laura Vip1eo]V._2.Form1::label18_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> H
+	[Laura Vip1eo]V._2.Form1::label22_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> h
+	[Laura Vip1eo]V._2.Form1::label23_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> I
+	[Laura Vip1eo]V._2.Form1::label12_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> i
+	[Laura Vip1eo]V._2.Form1::label4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> J
+	[Laura Vip1eo]V._2.Form1::Password_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> j
+	[Laura Vip1eo]V._2.Form1::Username_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> K
+	[Laura Vip1eo]V._2.Form1::guna2ControlBox2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> k
+	[Laura Vip1eo]V._2.Form1::panel1_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form1::guna2Button2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> L
+	[Laura Vip1eo]V._2.Form1::pictureBox2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> l
+	[Laura Vip1eo]V._2.Form1::guna2TextBox1_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> M
+	[Laura Vip1eo]V._2.Form1::btnSubmit_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> m
+	[Laura Vip1eo]V._2.Form1::txtPhone_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> N
+	[Laura Vip1eo]V._2.Form1::txtPhone_KeyPress[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyPressEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form1::pictureBox4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> n
+	[Laura Vip1eo]V._2.Form1::guna2CheckBox1_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> O
+	[Laura Vip1eo]V._2.Form1::label1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> o
+	[Laura Vip1eo]V._2.Form1::guna2Button2_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> P
+	[Laura Vip1eo]V._2.Form1::guna2PictureBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> p
+	[Laura Vip1eo]V._2.Form1::guna2CirclePictureBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Q
+	[Laura Vip1eo]V._2.Form1::guna2Separator2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> q
+	[Laura Vip1eo]V._2.Form1::InitializeComponent[0]( ) -> B
+
+	[Laura Vip1eo]V._2.Form1::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form1::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form1::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Form1::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2 skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.Form2::StartNetworkMonitor[0]( ) -> A
+	[Laura Vip1eo]V._2.Form2::InitNetworkBytes[0]( ) -> a
+	[Laura Vip1eo]V._2.Form2::NetTimer_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::FormatSpeed[1]( [mscorlib]System.Int64 ) -> A
+	[Laura Vip1eo]V._2.Form2::StartBDClock[0]( ) -> B
+	[Laura Vip1eo]V._2.Form2::BdTimer_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::SetWindowsHookEx[4]( [mscorlib]System.Int32, [Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc, [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]V._2.Form2::UnhookWindowsHookEx[1]( [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.Form2::CallNextHookEx[4]( [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.Form2::label1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[Laura Vip1eo]V._2.Form2::Form2_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> b
+	[Laura Vip1eo]V._2.Form2::GlobalHook_KeyDownExt[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::GlobalHook_KeyUpExt[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::GlobalHook_MouseDownExt[2]( [mscorlib]System.Object, [Gma.System.MouseKeyHook]Gma.System.MouseKeyHook.MouseEventExtArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::GlobalHook_MouseUpExt[2]( [mscorlib]System.Object, [Gma.System.MouseKeyHook]Gma.System.MouseKeyHook.MouseEventExtArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::PlaySound[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.Form2::Aim_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> C
+	[Laura Vip1eo]V._2.Form2::label4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> c
+	[Laura Vip1eo]V._2.Form2::label5_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> D
+	[Laura Vip1eo]V._2.Form2::label2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> d
+	[Laura Vip1eo]V._2.Form2::label6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> E
+	[Laura Vip1eo]V._2.Form2::label7_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> e
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> F
+	[Laura Vip1eo]V._2.Form2::label3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> f
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> G
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> g
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> H
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> h
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> I
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton5_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> i
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton7_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> J
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> j
+	[Laura Vip1eo]V._2.Form2::label10_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> K
+	[Laura Vip1eo]V._2.Form2::label3_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> k
+	[Laura Vip1eo]V._2.Form2::label9_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> L
+	[Laura Vip1eo]V._2.Form2::label11_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> l
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton10_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> M
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton9_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> m
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton12_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> N
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton11_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> n
+	[Laura Vip1eo]V._2.Form2::guna2Panel1_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::label8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> O
+	[Laura Vip1eo]V._2.Form2::label12_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> o
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> P
+	[Laura Vip1eo]V._2.Form2::guna2Separator4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> p
+	[Laura Vip1eo]V._2.Form2::guna2Separator3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Q
+	[Laura Vip1eo]V._2.Form2::guna2Separator2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> q
+	[Laura Vip1eo]V._2.Form2::guna2Separator1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> R
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> r
+	[Laura Vip1eo]V._2.Form2::label14_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> S
+	[Laura Vip1eo]V._2.Form2::guna2Separator5_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> s
+	[Laura Vip1eo]V._2.Form2::guna2Separator8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> T
+	[Laura Vip1eo]V._2.Form2::label15_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> t
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton13_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> U
+	[Laura Vip1eo]V._2.Form2::guna2Separator7_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> u
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton14_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> V
+	[Laura Vip1eo]V._2.Form2::guna2Button1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> v
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton3_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> W
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton7_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> w
+	[Laura Vip1eo]V._2.Form2::tabPage2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> X
+	[Laura Vip1eo]V._2.Form2::tabPage1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> x
+	[Laura Vip1eo]V._2.Form2::tabPage4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Y
+	[Laura Vip1eo]V._2.Form2::tabPage3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> y
+	[Laura Vip1eo]V._2.Form2::tabPage8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Z
+	[Laura Vip1eo]V._2.Form2::tabPage9_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> z
+	[Laura Vip1eo]V._2.Form2::tableLayoutPanel1_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::tabPage1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aA
+	[Laura Vip1eo]V._2.Form2::tabPage4_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aa
+	[Laura Vip1eo]V._2.Form2::tabPage3_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aB
+	[Laura Vip1eo]V._2.Form2::guna2Panel1_Paint_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> B
+	[Laura Vip1eo]V._2.Form2::guna2Panel7_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> b
+	[Laura Vip1eo]V._2.Form2::guna2Panel2_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> C
+	[Laura Vip1eo]V._2.Form2::guna2Panel5_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> c
+	[Laura Vip1eo]V._2.Form2::tabPage2_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ab
+	[Laura Vip1eo]V._2.Form2::guna2Panel4_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> D
+	[Laura Vip1eo]V._2.Form2::guna2Panel6_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> d
+	[Laura Vip1eo]V._2.Form2::label16_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aC
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton15_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ac
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton23_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aD
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton21_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ad
+	[Laura Vip1eo]V._2.Form2::label21_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aE
+	[Laura Vip1eo]V._2.Form2::guna2Panel9_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> E
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton25_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ae
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton26_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aF
+	[Laura Vip1eo]V._2.Form2::tabPage6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> af
+	[Laura Vip1eo]V._2.Form2::tabPage5_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aG
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton27_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ag
+	[Laura Vip1eo]V._2.Form2::label25_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aH
+	[Laura Vip1eo]V._2.Form2::label13_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ah
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton18_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aI
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton16_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ai
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton19_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aJ
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton17_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aj
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton20_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aK
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton22_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ak
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton24_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aL
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton30_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> al
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton28_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aM
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton29_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> am
+	[Laura Vip1eo]V._2.Form2::label17_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aN
+	[Laura Vip1eo]V._2.Form2::label27_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> an
+	[Laura Vip1eo]V._2.Form2::label30_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aO
+	[Laura Vip1eo]V._2.Form2::label13_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ao
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aP
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ap
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aQ
+	[Laura Vip1eo]V._2.Form2::guna2Separator1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aq
+	[Laura Vip1eo]V._2.Form2::label13_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aR
+	[Laura Vip1eo]V._2.Form2::guna2Separator6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ar
+	[Laura Vip1eo]V._2.Form2::label31_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aS
+	[Laura Vip1eo]V._2.Form2::OpenProcess[3]( [mscorlib]System.UInt32, [mscorlib]System.Boolean, [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.Form2::GetProcAddress[2]( [mscorlib]System.IntPtr, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.Form2::VirtualAllocEx[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]V._2.Form2::WriteProcessMemory[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Byte[], [mscorlib]System.UInt32, [mscorlib]System.IntPtr& ) -> A
+	[Laura Vip1eo]V._2.Form2::CreateRemoteThread[7]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.Form2::ExtractEmbeddedResource[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton32_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> as
+	[Laura Vip1eo]V._2.Form2::label32_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aT
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton33_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> at
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton31_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aU
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch1_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> au
+	[Laura Vip1eo]V._2.Form2::Application_ApplicationExit[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aV
+	[Laura Vip1eo]V._2.Form2::SetHook[1]( [Laura Vip1eo]V._2.Form2/LowLevelKeyboardProc ) -> A
+	[Laura Vip1eo]V._2.Form2::HookCallback[3]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2Button1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> av
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch2_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aW
+	[Laura Vip1eo]V._2.Form2::guna2Button2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aw
+	[Laura Vip1eo]V._2.Form2::label26_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aX
+	[Laura Vip1eo]V._2.Form2::label29_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ax
+	[Laura Vip1eo]V._2.Form2::tabPage7_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aY
+	[Laura Vip1eo]V._2.Form2::guna2ControlBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ay
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch3_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> aZ
+	[Laura Vip1eo]V._2.Form2::guna2Button3_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> az
+	[Laura Vip1eo]V._2.Form2::alive_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BA
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch4_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ba
+	[Laura Vip1eo]V._2.Form2::guna2Button4_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BB
+	[Laura Vip1eo]V._2.Form2::guna2Button5_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bb
+	[Laura Vip1eo]V._2.Form2::label36_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BC
+	[Laura Vip1eo]V._2.Form2::label37_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bc
+	[Laura Vip1eo]V._2.Form2::label38_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BD
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton11_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bd
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton25_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BE
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton34_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Be
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton36_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BF
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton39_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bf
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton38_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BG
+	[Laura Vip1eo]V._2.Form2::label39_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bg
+	[Laura Vip1eo]V._2.Form2::label40_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BH
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton11_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bh
+	[Laura Vip1eo]V._2.Form2::pictureBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BI
+	[Laura Vip1eo]V._2.Form2::Alert[2]( [mscorlib]System.String, [Laura Vip1eo]V._2.Form2/MSG/enmType ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton12_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bi
+	[Laura Vip1eo]V._2.Form2::label35_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BJ
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton11_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bj
+	[Laura Vip1eo]V._2.Form2::label33_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BK
+	[Laura Vip1eo]V._2.Form2::label36_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bk
+	[Laura Vip1eo]V._2.Form2::guna2Panel3_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> e
+	[Laura Vip1eo]V._2.Form2::SMOn[0]( ) -> b
+	[Laura Vip1eo]V._2.Form2::SMOff[0]( ) -> C
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch5_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BL
+	[Laura Vip1eo]V._2.Form2::guna2Button5_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bl
+	[Laura Vip1eo]V._2.Form2::label37_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BM
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch4_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bm
+	[Laura Vip1eo]V._2.Form2::guna2Button4_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BN
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch4_CheckedChanged_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bn
+	[Laura Vip1eo]V._2.Form2::guna2Button4_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BO
+	[Laura Vip1eo]V._2.Form2::label38_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bo
+	[Laura Vip1eo]V._2.Form2::guna2Panel10_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> F
+	[Laura Vip1eo]V._2.Form2::label14_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BP
+	[Laura Vip1eo]V._2.Form2::label40_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bp
+	[Laura Vip1eo]V._2.Form2::guna2TrackBar1_Scroll[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2TrackBar1_Scroll_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::label26_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BQ
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch4_CheckedChanged_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bq
+	[Laura Vip1eo]V._2.Form2::guna2Button4_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BR
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch4_CheckedChanged_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Br
+	[Laura Vip1eo]V._2.Form2::label14_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BS
+	[Laura Vip1eo]V._2.Form2::guna2Button4_Click_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bs
+	[Laura Vip1eo]V._2.Form2::guna2Panel21_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> f
+	[Laura Vip1eo]V._2.Form2::guna2Panel19_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> G
+	[Laura Vip1eo]V._2.Form2::guna2Panel8_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> g
+	[Laura Vip1eo]V._2.Form2::guna2Panel11_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> H
+	[Laura Vip1eo]V._2.Form2::guna2Panel12_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> h
+	[Laura Vip1eo]V._2.Form2::guna2Panel13_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> I
+	[Laura Vip1eo]V._2.Form2::guna2Panel14_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> i
+	[Laura Vip1eo]V._2.Form2::guna2Panel15_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> J
+	[Laura Vip1eo]V._2.Form2::guna2Panel18_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> j
+	[Laura Vip1eo]V._2.Form2::guna2Panel25_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> K
+	[Laura Vip1eo]V._2.Form2::guna2Panel16_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> k
+	[Laura Vip1eo]V._2.Form2::guna2Panel22_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> L
+	[Laura Vip1eo]V._2.Form2::guna2Panel17_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> l
+	[Laura Vip1eo]V._2.Form2::label41_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BT
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bt
+	[Laura Vip1eo]V._2.Form2::guna2Separator2_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BU
+	[Laura Vip1eo]V._2.Form2::guna2Separator2_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bu
+	[Laura Vip1eo]V._2.Form2::guna2Button7_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BV
+	[Laura Vip1eo]V._2.Form2::guna2Button6_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bv
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch6_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BW
+	[Laura Vip1eo]V._2.Form2::guna2Panel20_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> M
+	[Laura Vip1eo]V._2.Form2::FPS_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bw
+	[Laura Vip1eo]V._2.Form2::label27_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BX
+	[Laura Vip1eo]V._2.Form2::guna2Panel23_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> m
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton11_Click_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bx
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch7_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BY
+	[Laura Vip1eo]V._2.Form2::ConvertStringToByteArray[1]( [mscorlib]System.String ) -> a
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch7_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> By
+	[Laura Vip1eo]V._2.Form2::guna2Button8_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> BZ
+	[Laura Vip1eo]V._2.Form2::label36_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Bz
+	[Laura Vip1eo]V._2.Form2::guna2Panel24_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> N
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch8_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bA
+	[Laura Vip1eo]V._2.Form2::guna2Button9_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ba
+	[Laura Vip1eo]V._2.Form2::label26_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bB
+	[Laura Vip1eo]V._2.Form2::guna2Panel25_Paint_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> n
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton26_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bb
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton25_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bC
+	[Laura Vip1eo]V._2.Form2::guna2TrackBar1_Scroll_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> B
+	[Laura Vip1eo]V._2.Form2::Form2_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> O
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch9_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bc
+	[Laura Vip1eo]V._2.Form2::guna2Button10_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bD
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch9_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bd
+	[Laura Vip1eo]V._2.Form2::guna2Button10_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bE
+	[Laura Vip1eo]V._2.Form2::guna2TrackBar1_Scroll_3[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> b
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch8_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> be
+	[Laura Vip1eo]V._2.Form2::guna2Panel25_Paint_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> o
+	[Laura Vip1eo]V._2.Form2::guna2Button9_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bF
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch9_CheckedChanged_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bf
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch9_CheckedChanged_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bG
+	[Laura Vip1eo]V._2.Form2::timer2_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bg
+	[Laura Vip1eo]V._2.Form2::timer1_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bH
+	[Laura Vip1eo]V._2.Form2::guna2Button10_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bh
+	[Laura Vip1eo]V._2.Form2::guna2Panel10_Paint_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> P
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch9_CheckedChanged_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bI
+	[Laura Vip1eo]V._2.Form2::guna2Button10_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bi
+	[Laura Vip1eo]V._2.Form2::guna2Panel10_Paint_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> p
+	[Laura Vip1eo]V._2.Form2::Form2_MouseDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::Form2_MouseUp[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch10_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bJ
+	[Laura Vip1eo]V._2.Form2::guna2Button11_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bj
+	[Laura Vip1eo]V._2.Form2::FindWindow[2]( [mscorlib]System.String, [mscorlib]System.String ) -> a
+	[Laura Vip1eo]V._2.Form2::GetWindowRect[2]( [mscorlib]System.IntPtr, [Laura Vip1eo]V._2.Form2/RECT& ) -> A
+	[Laura Vip1eo]V._2.Form2::SetDefaultMonitorLocation[1]( [System.Windows.Forms]System.Windows.Forms.Form ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2Panel26_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> Q
+	[Laura Vip1eo]V._2.Form2::timer2_Tick_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bK
+	[Laura Vip1eo]V._2.Form2::lblUserName_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bk
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch10_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bL
+	[Laura Vip1eo]V._2.Form2::label29_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bl
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch11_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bM
+	[Laura Vip1eo]V._2.Form2::guna2Button11_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bm
+	[Laura Vip1eo]V._2.Form2::label38_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bN
+	[Laura Vip1eo]V._2.Form2::label34_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bn
+	[Laura Vip1eo]V._2.Form2::guna2Panel26_Paint_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> q
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton5_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bO
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton2_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bo
+	[Laura Vip1eo]V._2.Form2::label5_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bP
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch10_CheckedChanged_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bp
+	[Laura Vip1eo]V._2.Form2::guna2Button12_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bQ
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton2_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bq
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton5_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bR
+	[Laura Vip1eo]V._2.Form2::guna2Panel26_Paint_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> R
+	[Laura Vip1eo]V._2.Form2::spd_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> br
+	[Laura Vip1eo]V._2.Form2::notifyIcon1_MouseDoubleClick[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> B
+	[Laura Vip1eo]V._2.Form2::guna2Separator2_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bS
+	[Laura Vip1eo]V._2.Form2::guna2Separator4_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bs
+	[Laura Vip1eo]V._2.Form2::guna2Separator7_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bT
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator2_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bt
+	[Laura Vip1eo]V._2.Form2::NetspeedDown_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bU
+	[Laura Vip1eo]V._2.Form2::txtLog_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bu
+	[Laura Vip1eo]V._2.Form2::AddLog[2]( [mscorlib]System.String, [mscorlib]System.Boolean ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch10_CheckedChanged_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bV
+	[Laura Vip1eo]V._2.Form2::guna2Button12_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bv
+	[Laura Vip1eo]V._2.Form2::guna2Panel26_Paint_3[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> r
+	[Laura Vip1eo]V._2.Form2::guna2PictureBox1_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bW
+	[Laura Vip1eo]V._2.Form2::pictureBox1_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bw
+	[Laura Vip1eo]V._2.Form2::pictureBox1_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bX
+	[Laura Vip1eo]V._2.Form2::guna2Panel26_Paint_4[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> S
+	[Laura Vip1eo]V._2.Form2::EmptyWorkingSet[1]( [mscorlib]System.IntPtr ) -> a
+	[Laura Vip1eo]V._2.Form2::SetProcessWorkingSetSize[3]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton2_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bx
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch10_CheckedChanged_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bY
+	[Laura Vip1eo]V._2.Form2::guna2Panel27_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> s
+	[Laura Vip1eo]V._2.Form2::guna2Button12_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> by
+	[Laura Vip1eo]V._2.Form2::label42_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bZ
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch12_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> bz
+	[Laura Vip1eo]V._2.Form2::Form2_LocationChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CA
+	[Laura Vip1eo]V._2.Form2::Form2_Shown[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ca
+	[Laura Vip1eo]V._2.Form2::guna2Button13_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CB
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch13_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cb
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch14_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CC
+	[Laura Vip1eo]V._2.Form2::guna2Button14_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cc
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch14_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CD
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch15_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cd
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch16_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CE
+	[Laura Vip1eo]V._2.Form2::timer2_Tick_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ce
+	[Laura Vip1eo]V._2.Form2::guna2Button14_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CF
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton5_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cf
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton25_Click_3[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CG
+	[Laura Vip1eo]V._2.Form2::guna2Panel30_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> T
+	[Laura Vip1eo]V._2.Form2::guna2Panel29_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> t
+	[Laura Vip1eo]V._2.Form2::btnKeybind_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cg
+	[Laura Vip1eo]V._2.Form2::Form2_KeyDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyEventArgs ) -> B
+	[Laura Vip1eo]V._2.Form2::btnKeybind_KeyDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyEventArgs ) -> b
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton26_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CH
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch14_CheckedChanged_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ch
+	[Laura Vip1eo]V._2.Form2::guna2Button7_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CI
+	[Laura Vip1eo]V._2.Form2::guna2Panel30_Paint_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> U
+	[Laura Vip1eo]V._2.Form2::guna2Panel28_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> u
+	[Laura Vip1eo]V._2.Form2::guna2VTrackBar1_Scroll[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> C
+	[Laura Vip1eo]V._2.Form2::PlayBackgroundMusic[0]( ) -> c
+	[Laura Vip1eo]V._2.Form2::guna2TrackBar1_Scroll_4[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.ScrollEventArgs ) -> c
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch16_CheckedChanged_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ci
+	[Laura Vip1eo]V._2.Form2::Form2_FormClosing[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton35_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CJ
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton34_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cj
+	[Laura Vip1eo]V._2.Form2::guna2Panel32_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> V
+	[Laura Vip1eo]V._2.Form2::Form1_FormClosing[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) -> a
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch17_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CK
+	[Laura Vip1eo]V._2.Form2::guna2Button11_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ck
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch18_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CL
+	[Laura Vip1eo]V._2.Form2::guna2Button14_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cl
+	[Laura Vip1eo]V._2.Form2::guna2ToggleSwitch19_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CM
+	[Laura Vip1eo]V._2.Form2::webView22_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cm
+	[Laura Vip1eo]V._2.Form2::pictureBoxAd_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CN
+	[Laura Vip1eo]V._2.Form2::webView21_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cn
+	[Laura Vip1eo]V._2.Form2::label39_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CO
+	[Laura Vip1eo]V._2.Form2::pictureBox2_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Co
+	[Laura Vip1eo]V._2.Form2::label49_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CP
+	[Laura Vip1eo]V._2.Form2::lblTimer_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cp
+	[Laura Vip1eo]V._2.Form2::panSlider1_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CQ
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator1_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cq
+	[Laura Vip1eo]V._2.Form2::guna2Separator1_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CR
+	[Laura Vip1eo]V._2.Form2::guna2VSeparator2_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cr
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton34_Click_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CS
+	[Laura Vip1eo]V._2.Form2::guna2Panel31_Paint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) -> v
+	[Laura Vip1eo]V._2.Form2::txtMessage_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cs
+	[Laura Vip1eo]V._2.Form2::btnSend_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CT
+	[Laura Vip1eo]V._2.Form2::btnCopy_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Ct
+	[Laura Vip1eo]V._2.Form2::msgtext_TextChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CU
+	[Laura Vip1eo]V._2.Form2::sendmsg_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cu
+	[Laura Vip1eo]V._2.Form2::copycode_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CV
+	[Laura Vip1eo]V._2.Form2::timer3_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cv
+	[Laura Vip1eo]V._2.Form2::msgtext_KeyPress[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.KeyPressEventArgs ) -> A
+	[Laura Vip1eo]V._2.Form2::Music_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CW
+	[Laura Vip1eo]V._2.Form2::label46_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cw
+	[Laura Vip1eo]V._2.Form2::guna2Separator2_Click_4[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CX
+	[Laura Vip1eo]V._2.Form2::label6_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cx
+	[Laura Vip1eo]V._2.Form2::label47_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CY
+	[Laura Vip1eo]V._2.Form2::EnsureDllExists[1]( [mscorlib]System.String ) -> B
+	[Laura Vip1eo]V._2.Form2::SendPipeCommand[1]( [mscorlib]System.String ) -> b
+	[Laura Vip1eo]V._2.Form2::Hook_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cy
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox1_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> CZ
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox2_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> Cz
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox3_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cA
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox4_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ca
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox5_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cB
+	[Laura Vip1eo]V._2.Form2::guna2CheckBox6_CheckedChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cb
+	[Laura Vip1eo]V._2.Form2::guna2GradientButton35_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cC
+	[Laura Vip1eo]V._2.Form2::InitializeComponent[0]( ) -> D
+	[Laura Vip1eo]V._2.Form2::<Form2_Load>b__39_0[1]( [mscorlib]System.Boolean ) -> A
+	[Laura Vip1eo]V._2.Form2::<Form2_Load>b__39_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cc
+	[Laura Vip1eo]V._2.Form2::<Form2_Load>b__39_2[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> cD
+	[Laura Vip1eo]V._2.Form2::<PlayBackgroundMusic>b__387_1[2]( [mscorlib]System.Object, [NAudio.Core]NAudio.Wave.StoppedEventArgs ) -> A
+
+	[Laura Vip1eo]V._2.Form2::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2::OnLoad[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2::GetModuleHandle[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Form2::FastInjectScan[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::Subscribe[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::ProcessCmdKey[2]( [System.Windows.Forms]System.Windows.Forms.Message&, [System.Windows.Forms]System.Windows.Forms.Keys ) skipped:  external base class or interface
+	[Laura Vip1eo]V._2.Form2::SetWindowDisplayAffinity[2]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::ShowAlert[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::PlayBeep[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::StartGlobalCooldown[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.DCpanelShow skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]V._2.DCpanelShow::StartRPC[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.DCpanelShow::StopRPC[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.DCpanelShow::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.DependencyExtractor skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.DependencyExtractor::IsVCRedistInstalled[0]( ) -> A
+	[Laura Vip1eo]V._2.DependencyExtractor::CheckRegistryForVCRedist[0]( ) -> a
+	[Laura Vip1eo]V._2.DependencyExtractor::InstallVCRedist[0]( ) -> B
+	[Laura Vip1eo]V._2.DependencyExtractor::DownloadFile[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.DependencyExtractor::RunSilentInstall[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.DependencyExtractor::TryDelete[1]( [mscorlib]System.String ) -> a
+	[Laura Vip1eo]V._2.DependencyExtractor::ExtractFile[4]( [mscorlib]System.Reflection.Assembly, [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.Boolean ) -> A
+	[Laura Vip1eo]V._2.DependencyExtractor::TryCopyToSystemFolder[2]( [mscorlib]System.String, [mscorlib]System.Byte[] ) -> A
+	[Laura Vip1eo]V._2.DependencyExtractor::WriteFileSafe[2]( [mscorlib]System.String, [mscorlib]System.Byte[] ) -> a
+	[Laura Vip1eo]V._2.DependencyExtractor::FindResourceName[2]( [mscorlib]System.Reflection.Assembly, [mscorlib]System.String ) -> A
+
+	[Laura Vip1eo]V._2.DependencyExtractor::ExtractDependencies[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.DependencyExtractor::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.GlobalMouseHook skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.GlobalMouseHook::SetHook[1]( [Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::HookCallback[3]( [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::StartReleaseMonitoring[0]( ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::ForceRelease[0]( ) -> a
+	[Laura Vip1eo]V._2.GlobalMouseHook::SetWindowsHookEx[4]( [mscorlib]System.Int32, [Laura Vip1eo]V._2.GlobalMouseHook/LowLevelMouseProc, [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::UnhookWindowsHookEx[1]( [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::CallNextHookEx[4]( [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::GetModuleHandle[1]( [mscorlib]System.String ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::GetAsyncKeyState[1]( [mscorlib]System.Int32 ) -> A
+	[Laura Vip1eo]V._2.GlobalMouseHook::<StartReleaseMonitoring>b__21_0[0]( ) -> B
+
+	[Laura Vip1eo]V._2.GlobalMouseHook::get_IsEnabled[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.GlobalMouseHook::set_IsEnabled[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.GlobalMouseHook::add_OnMouseLeftButtonHold[1]( [mscorlib]System.Action`1<[mscorlib]System.Boolean> ) skipped:  skipping events
+	[Laura Vip1eo]V._2.GlobalMouseHook::remove_OnMouseLeftButtonHold[1]( [mscorlib]System.Action`1<[mscorlib]System.Boolean> ) skipped:  skipping events
+	[Laura Vip1eo]V._2.GlobalMouseHook::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.GlobalMouseHook::Start[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.GlobalMouseHook::Stop[0]( ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]V._2.MessageModel skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]V._2.MessageModel::get_Text[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.MessageModel::set_Text[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.MessageModel::get_SecretKey[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.MessageModel::set_SecretKey[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.MessageModel::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Teamcodesend skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.Teamcodesend::StartPolling[0]( ) -> A
+	[Laura Vip1eo]V._2.Teamcodesend::PollFirebaseAsync[0]( ) -> a
+	[Laura Vip1eo]V._2.Teamcodesend::<StartPolling>b__6_0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+
+	[Laura Vip1eo]V._2.Teamcodesend::.ctor[0]( ) skipped:  special name
+	[Laura Vip1eo]V._2.Teamcodesend::SendMessageAsync[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+}
+
+[Laura Vip1eo]V._2.Tele skipped:  KeepPublicApi option in configuration
+{
+	[Laura Vip1eo]V._2.Tele::CaptureLoop[1]( [mscorlib]System.Threading.CancellationToken ) -> A
+	[Laura Vip1eo]V._2.Tele::<Start>b__8_0[0]( ) -> A
+
+	[Laura Vip1eo]V._2.Tele::get_IsRunning[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Tele::set_IsRunning[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Tele::Start[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Tele::HoldData[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Tele::ReleaseData[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Tele::Stop[0]( ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Tele::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/msg skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/msg::get_message[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::set_message[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::get_author[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::set_author[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::get_timestamp[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::set_timestamp[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/msg::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/users skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/users::get_credential[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/users::set_credential[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/users::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/app_data_class skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_numUsers[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_numUsers[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_numOnlineUsers[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_numOnlineUsers[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_numKeys[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_numKeys[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_version[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_version[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_customerPanelLink[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_customerPanelLink[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::get_downloadLink[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::set_downloadLink[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/app_data_class::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/user_data_class skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_username[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_username[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_ip[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_ip[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_hwid[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_hwid[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_createdate[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_createdate[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_lastlogin[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_lastlogin[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::get_subscriptions[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::set_subscriptions[1]( [mscorlib]System.Collections.Generic.List`1<[Laura Vip1eo]KeyAuth.api/Data> ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/user_data_class::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/Data skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/Data::get_subscription[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::set_subscription[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::get_expiry[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::set_expiry[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::get_timeleft[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::set_timeleft[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::get_key[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::set_key[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/Data::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]KeyAuth.api/response_class skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]KeyAuth.api/response_class::get_success[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_class::set_success[1]( [mscorlib]System.Boolean ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_class::get_message[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_class::set_message[1]( [mscorlib]System.String ) skipped:  skipping properties
+	[Laura Vip1eo]KeyAuth.api/response_class::.ctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form1/DustParticle skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]V._2.Form1/DustParticle::get_X[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::set_X[1]( [mscorlib]System.Single ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::get_Y[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::set_Y[1]( [mscorlib]System.Single ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::get_Size[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::set_Size[1]( [mscorlib]System.Int32 ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::get_Alpha[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::set_Alpha[1]( [mscorlib]System.Int32 ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form1/DustParticle::.ctor[2]( [mscorlib]System.Int32, [mscorlib]System.Int32 ) skipped:  special name
+	[Laura Vip1eo]V._2.Form1/DustParticle::Move[2]( [mscorlib]System.Int32, [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form1/DustParticle::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.Form2/DustParticle skipped:  KeepPublicApi option in configuration
+{
+
+	[Laura Vip1eo]V._2.Form2/DustParticle::get_X[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::set_X[1]( [mscorlib]System.Single ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::get_Y[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::set_Y[1]( [mscorlib]System.Single ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::get_Size[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::set_Size[1]( [mscorlib]System.Int32 ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::get_Alpha[0]( ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::set_Alpha[1]( [mscorlib]System.Int32 ) skipped:  skipping properties
+	[Laura Vip1eo]V._2.Form2/DustParticle::.ctor[2]( [mscorlib]System.Int32, [mscorlib]System.Int32 ) skipped:  special name
+	[Laura Vip1eo]V._2.Form2/DustParticle::Move[2]( [mscorlib]System.Int32, [mscorlib]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[Laura Vip1eo]V._2.Form2/DustParticle::.cctor[0]( ) skipped:  special name
+}
+
+[Laura Vip1eo]V._2.AutoFireForm/RECT skipped:  KeepPublicApi option in configuration
+{
+}
+
+[Laura Vip1eo]V._2.Form2/MSG skipped:  KeepPublicApi option in configuration
+{
+}
+
+[Laura Vip1eo]V._2.Form2/RECT skipped:  KeepPublicApi option in configuration
+{
+}
+
+[Laura Vip1eo]V._2.Form2/MSG/enmType skipped:  KeepPublicApi option in configuration
+{
+}
+
+Renamed Resources:
+
+V._2.Properties.Resources.resources -> A.D.resources
+
+Skipped Resources:
+
+V._2.AutoFireForm.resources (KeepPublicApi option in configuration)
+V._2.CharacterForm.resources (KeepPublicApi option in configuration)
+V._2.Form1.resources (KeepPublicApi option in configuration)
+V._2.Form2.resources (KeepPublicApi option in configuration)
+V._2.Dependencies.WinDivert64.sys (no clear new name)
+V._2.CHAMS MENU.dll (no clear new name)
+V._2.Dependencies.F4XMEMORY.dll (no clear new name)
+V._2.Dependencies.msvcp140.dll (no clear new name)
+V._2.Dependencies.vcruntime140.dll (no clear new name)
+V._2.Dependencies.WinDivert.dll (no clear new name)
+V._2.AotBst.dll (no clear new name)
+V._2.cimgui.dll (no clear new name)
+V._2.Client.dll (no clear new name)
+V._2.loginsound.Bijoy.wav (no clear new name)
+V._2.Resources.lauramusic.mp3 (no clear new name)
+costura.anglesharp.dll.compressed (no clear new name)
+costura.costura.dll.compressed (no clear new name)
+costura.costura.pdb.compressed (no clear new name)
+costura.discordrpc.dll.compressed (no clear new name)
+costura.discordrpc.pdb.compressed (no clear new name)
+costura.f4xmemory.dll.compressed (no clear new name)
+costura.firebase.dll.compressed (no clear new name)
+costura.gma.system.mousekeyhook.dll.compressed (no clear new name)
+costura.guna.ui2.dll.compressed (no clear new name)
+costura.litedb.dll.compressed (no clear new name)
+costura.microsoft.bcl.asyncinterfaces.dll.compressed (no clear new name)
+costura.microsoft.bcl.memory.dll.compressed (no clear new name)
+costura.microsoft.win32.registry.dll.compressed (no clear new name)
+costura.naudio.asio.dll.compressed (no clear new name)
+costura.naudio.core.dll.compressed (no clear new name)
+costura.naudio.dll.compressed (no clear new name)
+costura.naudio.midi.dll.compressed (no clear new name)
+costura.naudio.wasapi.dll.compressed (no clear new name)
+costura.naudio.winforms.dll.compressed (no clear new name)
+costura.naudio.winmm.dll.compressed (no clear new name)
+costura.newtonsoft.json.dll.compressed (no clear new name)
+costura.system.buffers.dll.compressed (no clear new name)
+costura.system.drawing.common.dll.compressed (no clear new name)
+costura.system.interactive.async.dll.compressed (no clear new name)
+costura.system.linq.async.dll.compressed (no clear new name)
+costura.system.linq.asyncenumerable.dll.compressed (no clear new name)
+costura.system.memory.dll.compressed (no clear new name)
+costura.system.numerics.vectors.dll.compressed (no clear new name)
+costura.system.reactive.dll.compressed (no clear new name)
+costura.system.resources.extensions.dll.compressed (no clear new name)
+costura.system.runtime.compilerservices.unsafe.dll.compressed (no clear new name)
+costura.system.security.accesscontrol.dll.compressed (no clear new name)
+costura.system.security.principal.windows.dll.compressed (no clear new name)
+costura.system.text.encoding.codepages.dll.compressed (no clear new name)
+costura.system.text.encodings.web.dll.compressed (no clear new name)
+costura.system.text.json.dll.compressed (no clear new name)
+costura.system.threading.tasks.extensions.dll.compressed (no clear new name)
+costura.tesseract.dll.compressed (no clear new name)
+costura.tesseract.drawing.dll.compressed (no clear new name)
+costura.windivertsharp.dll.compressed (no clear new name)
+costura.metadata (no clear new name)
